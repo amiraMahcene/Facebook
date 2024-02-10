@@ -1,0 +1,132 @@
+/* starting of the general rules*/
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* the end of the general rules*/
+
+/* the starting of styling our container*/
+.container
+{
+    width : 100%;
+    height : 100vh;
+    background-color: #f1f2f6;
+    display :flex;
+    flex-direction: row;
+}
+.container .left-side
+{
+    flex-basis: 50%;
+    height:100%;
+    padding-top:16%;
+    padding-left: 12%;
+
+}
+.container .left-side h1
+{
+    color: #1878f2;
+    font-size: 3.1rem;
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container .left-side p
+{
+    font-size: 1.5em;
+   
+}
+    
+
+.container .right-side
+{
+    flex-basis: 50%;
+    height:100%;
+    
+    margin-top: 9%;
+    display: flex;
+    margin-left: 150px;
+    flex-direction: column;
+}
+
+/*start the stylying of the log in form*/
+.container .right-side form
+{
+    width : 400px;
+    height:350px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border:none;
+    box-shadow: 1px 1px 8px #b4b0b0;
+    border-radius: 10px;
+    padding: 15px;
+}
+.container .right-side form input
+{
+    width : 98%;
+    height:50px;
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border:1.2px solid #ebe8e8;
+    
+}
+.container .right-side form  #submit
+{
+    background-color: #1878f2;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container .right-side form a
+{
+    color:#1878f2;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container .right-side form a:hover 
+{
+    text-decoration: underline;
+}
+.container .right-side form span
+{
+    height:1px;
+    width:98%;
+    background-color: #ccc;
+}
+.container .right-side form button
+{
+    width:50%;
+    height:50px;
+    background-color: #47B331;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 700;
+    border:none;
+    border-radius: 7px;
+    opacity: 0.99;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+}
+.container .right-side form button:hover
+{
+    opacity: 1;
+}
+.container .right-side p
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.container .right-side p a
+{
+    color:#000;
+    font-weight: 900;
+    text-decoration: none;
+}
+/* The end of styling of the log in form*/
+/* the end of styling our container*/
